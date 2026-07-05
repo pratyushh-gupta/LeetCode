@@ -5,7 +5,7 @@ class Solution {
         for(int i=0;i<n;i++){
             arr[count]=nums[i];
             arr[count+1]=nums[i+n];
-            count+=2; //cuz 2 count are there 
+            count+=2;
         }
         return arr;
     }
